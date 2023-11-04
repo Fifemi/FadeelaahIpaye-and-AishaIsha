@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 nav{
-    padding: 1rem 2rem;
+    padding: 1rem 14rem 1rem 6rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,6 +28,7 @@ ul{
     justify-content:space-between;
     width: 80%;
     align-items: center;
+    font-weight: 600;
 }
 .button{
     width: 20%;
@@ -41,9 +43,13 @@ ul{
     text-align: center;
 }
 .btnlink:hover{
-background-color: gray;
-color: black;
+    background-color: gray;
+    color: black;
+    padding-right: 20px;
 }
 a{
     text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
 }
