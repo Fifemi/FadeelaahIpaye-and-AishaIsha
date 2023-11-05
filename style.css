@@ -12,6 +12,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 7rem;
+    margin-bottom: 4em;
 }
 .logo{
     width: 30%;
@@ -53,3 +54,108 @@ a{
     font-size: 16px;
     font-weight: 600;
 }
+body {
+    margin: 0;
+    padding: 0
+  }
+  .container{
+    padding: 0em 4em;
+    margin: 3em 5em;
+    height: 100vh;
+  }
+  img{
+    max-width: 100%;
+  }
+    
+  h2{
+    color: #df6953;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 1em;
+  }
+  h1{
+    color: #181f4b;
+    font-family: Volkhov, sans-serif;
+    font-size: 55px;
+    font-weight: bolder;
+    margin-bottom: .5em;
+
+  
+  }
+  p{
+    color: #666b8a;
+    font-size: 17px;
+    margin-bottom: 1em;
+  }
+  .Find_button{
+    background-color: #f0a501;
+    color: white;
+    border: none;
+    padding: 1em;
+    border-radius: 10px;
+    margin-right: 7em;
+  }
+  
+  .hero_text{
+    width: 40%;
+  }
+  
+  .line {
+    position: absolute;
+    top: 280px;
+    left: 313px;
+    width: 15%;
+  }
+  
+  main{
+    display: flex;
+  }
+  
+  .lady{
+    width: 70%;
+    position: relative;
+  }
+  .lady img{
+    position: absolute;
+    top: -4em;
+    right: 2em;
+  }
+  
+  .play_demo{
+    width: 52px;
+    height: 52px;
+    background-color:#df6953;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    border-radius: 100%;
+    box-shadow: 0 15px 30px rgba(223, 105, 81, .3);
+} 
+
+  .play_demo img{
+    width: 20%;   
+    position: relative;
+    left: 1.35em;
+    bottom: -1.15em;
+    
+  }
+
+  .buttons{
+    display: flex;
+  }
+ 
+  .play{
+    display: flex;
+    gap: 1em;
+  }
+
+  .play .play_text{
+    align-self: center;
+    font-size: 17px;
+    position: relative;
+    bottom:-.5em;
+  }
+
+ 
+  
